@@ -28,7 +28,7 @@ const Form = (props) => {
             </CheckBox>
           </FieldsWrap>
         </Container>
-        <Submit type="submit" value="Get Started"/>
+        <Submit type="submit" value="Get Started" />
       </FormWrap>
     </Wrap>
   )
