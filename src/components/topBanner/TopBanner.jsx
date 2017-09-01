@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import topBannerBg from '../../images/topBannerBg.png'
 import bannerChart from '../../images/bannerChart.png'
+import Form from '../form/Form'
 
 const TopBanner = (props) => {
   return (
@@ -44,6 +45,7 @@ const TopBanner = (props) => {
           </WarningText>
         </Warning>
       </Content>
+      <Form />
     </Wrap>
   )
 }
@@ -64,6 +66,7 @@ const Content = styled.div`
   flex-direction: column;
   height: 100%;
   justify-content: center;
+  padding-right: 30px;
 
 `
 const Title = styled.div`
