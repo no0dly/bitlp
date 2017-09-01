@@ -69,9 +69,7 @@ const Wrap = styled.div`
     bottom: 0;
     left: 0;
     right: 0;
-
   }
-
 `
 
 const Title = styled.div`
@@ -124,7 +122,7 @@ const ContentDescriptionText = styled.div`
   font-size: 1.125rem;
   color: #8392A7;
   font-weight: 300;
-  line-height: 1.75rem;
+  line-height: 2rem;
 `
 
 export default Faq
