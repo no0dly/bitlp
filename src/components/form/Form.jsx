@@ -80,7 +80,6 @@ const Input = styled.input`
   padding: 0 20px 0 56px;
   height: 54px;
   line-height: 45px;
-  box-sizing: border-box;
   &::-webkit-input-placeholder {
     color: #9CA4AA;
   }
