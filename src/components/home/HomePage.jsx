@@ -39,7 +39,8 @@ const HomePage = (props) => {
 }
 
 const Wrap = styled.div`
-
+  max-width: 1600px;
+  margin: 0 auto;
 `
 
 export default HomePage
