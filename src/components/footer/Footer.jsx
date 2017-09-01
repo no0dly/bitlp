@@ -120,7 +120,7 @@ const Wrap = styled.div`
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  padding: 0 20px;
+  padding: 82px 20px 20px;
 `
 
 const Column = styled.div`
@@ -160,6 +160,10 @@ const Link = styled.a`
   text-decoration: none;
   margin-bottom: 30px;
   display: block;
+  transition: 0.3s;
+  &:hover {
+    color: #2B2E35;
+  }
 `
 
 const ShareList = styled.ul`

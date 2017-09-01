@@ -39,7 +39,7 @@ const Wrap = styled.div`
 `
 
 const FormWrap = styled.div`
-  max-width: 530px;
+  max-width: 460px;
   background: #fff;
   border-radius: 8px;
   padding-top: 55px;
