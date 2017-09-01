@@ -1,0 +1,24 @@
+<svg width="20" height="18" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>linkedin</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7471 -6600)">
+<g id="linkedin">
+<g id="Group 10">
+<g id="Fill 10">
+<use xlink:href="#path0_fill" transform="translate(7471.53 6605.29)" fill="#187FB8"/>
+</g>
+<g id="Fill 12">
+<use xlink:href="#path1_fill" transform="translate(7477.84 6605.29)" fill="#187FB8"/>
+</g>
+<g id="Fill 13">
+<use xlink:href="#path2_fill" transform="translate(7471 6600)" fill="#187FB8"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 12.0611L 3.78421 12.0611L 3.78421 0L 0 0L 0 12.0611Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 8.02895 0C 5.86105 0 4.50263 1.18112 4.25105 2.00859L 4.25105 0.115941L 0 0.115941C 0.0552632 1.12076 0 12.177 0 12.177L 4.25105 12.177L 4.25105 5.65041C 4.25105 5.28724 4.23421 4.92512 4.34368 4.66465C 4.63632 3.93882 5.26368 3.18706 6.39316 3.18706C 7.86895 3.18706 8.54053 4.302 8.54053 5.93576L 8.54053 12.177L 12.8316 12.177L 12.8316 5.47041C 12.8316 1.73435 10.7179 0 8.02895 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 2.31211 0C 0.914737 0 0 0.902647 0 2.09382C 0 3.26276 0.888421 4.18447 2.25789 4.18447L 2.28526 4.18447C 3.70789 4.18447 4.59368 3.25906 4.59368 2.09065C 4.56632 0.9 3.70789 0 2.31211 0Z"/>
+</defs>
+</svg>
