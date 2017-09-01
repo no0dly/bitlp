@@ -114,6 +114,7 @@ const PercentageAmount = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.625rem;
   color: #00B5FF;
+  margin-bottom: 5px;
 `
 const PercentageText = styled.div`
   font-family: 'Roboto', sans-serif;

@@ -136,6 +136,7 @@ const Submit = styled.input`
   text-align: center;
   font-size: 1.5rem;
   transition: 0.3s;
+  border-radius: 0 0 8px 8px;
   &:hover {
     color: #00B5FF;
     background: #fff;
