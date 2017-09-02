@@ -59,6 +59,18 @@ const Wrap = styled.div`
   background-position: top left;
   background-size: cover;
   position: relative;
+  @media (max-width: 1200px) {
+    padding: 0 80px 0;
+  }
+
+  @media (max-width: 1078px) {
+    padding: 0 40px 0;
+  }
+
+  @media (max-width: 960px) {
+    flex-wrap: wrap;
+    height: auto;
+  }
 `
 
 const Content = styled.div`
@@ -69,25 +81,45 @@ const Content = styled.div`
   justify-content: center;
   padding-right: 30px;
   margin-right: 100px;
+  @media (max-width: 960px) {
+    width: 100%;
+    justify-content: baseline;
+    padding-top: 140px;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding-right: 0;
+  }
 `
 const Title = styled.div`
   max-width: 401px;
   margin-bottom: 25px;
+  @media (max-width: 960px) {
+    max-width: 100%;
+  }
+
 `
 const TitleText = styled.h2`
   font-family: 'Roboto', sans-serif;
   font-size: 2.875rem;
   color: #fff;
+  @media (max-width: 500px) {
+    font-size: 1.875rem;
+  }
 `
 const SubTitle = styled.div`
   max-width: 512px;
   margin-bottom: 25px;
+
 `
 const SubTitleText = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.375rem;
   color: #E0E6ED;
   font-weight: 300;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 const Graph = styled.div`
   display: flex;
@@ -97,6 +129,10 @@ const GraphHeader = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  @media (max-width: 500px) {
+    justify-content: space-between;
+  }
+
 `
 const Money = styled.div`
   margin-right: 35px;
@@ -105,6 +141,9 @@ const MoneyAmount = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 3.375rem;
   color: #fff;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `
 const Percentage = styled.div`
   display: flex;
@@ -116,16 +155,26 @@ const PercentageAmount = styled.div`
   font-size: 1.625rem;
   color: #00B5FF;
   margin-bottom: 5px;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 const PercentageText = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 0.75rem;
   color: #fff;
+  @media (max-width: 500px) {
+    font-size: 0.5rem;
+  }
 `
 const Chart = styled.div`
   width: 396px;
   height: 102px;
   margin-bottom: 40px;
+  @media (max-width: 500px) {
+    width: auto;
+    height: auto;
+  }
   img {
     width: 100%;
     height: auto;
@@ -140,6 +189,9 @@ const WarningText = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.125rem;
   color: #a9a8bb;
+  @media (max-width: 500px) {
+    font-size: 0.875rem;
+  }
 `
 
 export default TopBanner

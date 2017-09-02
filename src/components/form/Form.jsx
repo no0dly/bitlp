@@ -15,7 +15,7 @@ const Form = (props) => {
               Start Investing in Bitcoin
             </TitleText>
           </Title>
-          <FieldsWrap>
+          <div>
             <Input className="person" type="text" name="username" placeholder="Select a Username" />
             <Input className="envelope" type="email" name="email" placeholder="Enter your email address" />
             <Input className="lock" type="password" name="password" placeholder="Password" />
@@ -26,7 +26,7 @@ const Form = (props) => {
                 I have read and accepted the terms and conditions of use
               </CheckBoxText>
             </CheckBox>
-          </FieldsWrap>
+          </div>
         </Container>
         <Submit type="submit" value="Get Started" />
       </FormWrap>
@@ -51,25 +51,32 @@ const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media (max-width: 960px) {
+    top: 0px;
+    margin: 0 auto 40px;
+  }
 `
 
 const Container = styled.div`
   padding: 0 60px;
+  @media (max-width: 500px) {
+    padding: 0 15px;
+  }
 `
 
 const Title = styled.div`
   margin-bottom: 50px;
+  text-align: center;
 `
 
 const TitleText = styled.h3`
   font-family: 'Roboto', sans-serif;
   font-size: 1.75rem;
   color: #2C3746;
-
-`
-
-const FieldsWrap = styled.div`
-
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 
 const Input = styled.input`
@@ -98,15 +105,20 @@ const Input = styled.input`
 
   &.person {
     background-image: url(${personIcon})
-    background-position: 20px 14px;
+    background-position: 10px 14px;
   }
   &.envelope {
     background-image: url(${envelopeIcon})
-    background-position: 16px 16px;
+    background-position: 6px 16px;
   }
   &.lock {
     background-image: url(${lockIcon})
-    background-position: 20px 14px;
+    background-position: 10px 14px;
+  }
+
+  @media (max-width: 500px) {
+    padding: 0 10px 0 36px;
+    font-size: 0.75rem;
   }
 `
 
@@ -125,6 +137,9 @@ const CheckBoxInput = styled.input`
 const CheckBoxText = styled.div`
   color: #B5BDC8;
   font-size: 1rem;
+  @media (max-width: 500px) {
+    font-size: 0.75rem;
+  }
 `
 
 const Submit = styled.input`
@@ -140,6 +155,9 @@ const Submit = styled.input`
   &:hover {
     color: #00B5FF;
     background: #fff;
+  }
+  @media (max-width: 500px) {
+    font-size: 1rem;
   }
 `
 
