@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import shieldIcon from '../../images/shield.svg'
-import diagramIcon from '../../images/diagram.png'
-import spareIcon from '../../images/spare.svg'
-import dollarIcon from '../../images/dollar.svg'
-import moneyIcon from '../../images/money.svg'
-import clockIcon from '../../images/clock.svg'
-import mask from '../../images/maskDiscover.png'
+import shieldIcon from '../../images/icons/shield.svg'
+import diagramIcon from '../../images/icons/diagram.png'
+import spareIcon from '../../images/icons/spare.svg'
+import dollarIcon from '../../images/icons/dollar.svg'
+import moneyIcon from '../../images/icons/money.svg'
+import clockIcon from '../../images/icons/clock.svg'
+import mask from '../../images/bg/maskDiscover.png'
 
 const Discover = (props) => {
   return (

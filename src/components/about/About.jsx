@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import bitcoin from '../../images/bitcoin.png'
-import aboutMask from '../../images/aboutMask.png'
+import bitcoin from '../../images/bg/bitcoin.png'
+import aboutMask from '../../images/bg/aboutMask.png'
 
 const About = (props) => {
   return (

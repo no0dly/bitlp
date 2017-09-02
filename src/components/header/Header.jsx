@@ -8,7 +8,7 @@ const Header = (props) => {
   return (
     <Wrap>
       <LogoWrap href="/">
-        <img src={ Logo } />
+        <img src={ Logo } alt="logo" />
       </LogoWrap>
 
       <Login />

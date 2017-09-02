@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import personIcon from '../../images/person.svg'
-import envelopeIcon from '../../images/envelop.svg'
-import lockIcon from '../../images/lock.svg'
+import personIcon from '../../images/icons/person.svg'
+import envelopeIcon from '../../images/icons/envelop.svg'
+import lockIcon from '../../images/icons/lock.svg'
 
 const Form = (props) => {
   return (

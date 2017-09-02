@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 import Slider from './Slider'
 
-import expert from '../../images/person.png'
-import expert2 from '../../images/person2.png'
-import expert3 from '../../images/person3.png'
+import expert from '../../images/icons/person.png'
+import expert2 from '../../images/icons/person2.png'
+import expert3 from '../../images/icons/person3.png'
 
 const data = [
   {

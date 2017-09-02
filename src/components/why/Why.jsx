@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import mark from '../../images/mark.svg'
+import mark from '../../images/icons/mark.svg'
 
 const Why = (props) => {
   return (

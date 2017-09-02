@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import signup from '../../images/signup.svg'
-import verify from '../../images/verify.svg'
-import fund from '../../images/fund.svg'
-import trading from '../../images/trading.svg'
+import signup from '../../images/icons/signup.svg'
+import verify from '../../images/icons/verify.svg'
+import fund from '../../images/icons/fund.svg'
+import trading from '../../images/icons/trading.svg'
 
 const How = (props) => {
   return (

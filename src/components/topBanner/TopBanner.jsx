@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import topBannerBg from '../../images/topBannerBg.png'
+import topBannerBg from '../../images/bg/topBannerBg.png'
 import bannerChart from '../../images/bannerChart.png'
 import Form from '../form/Form'
 
@@ -36,7 +36,7 @@ const TopBanner = (props) => {
             </Percentage>
           </GraphHeader>
           <Chart>
-            <img src={ bannerChart } />
+            <img src={ bannerChart } alt="graph" />
           </Chart>
         </Graph>
         <Warning>

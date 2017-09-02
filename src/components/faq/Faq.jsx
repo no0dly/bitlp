@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import faqBg from '../../images/faqBg.svg'
+import faqBg from '../../images/bg/faqBg.svg'
 
 const Faq = (props) => {
   return (

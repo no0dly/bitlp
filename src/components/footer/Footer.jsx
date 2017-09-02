@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import twitterIcon from '../../images/twitter.svg'
-import facebookIcon from '../../images/facebook.svg'
-import googleIcon from '../../images/google.svg'
-import linkedinIcon from '../../images/linkedin.svg'
+import twitterIcon from '../../images/icons/twitter.svg'
+import facebookIcon from '../../images/icons/facebook.svg'
+import googleIcon from '../../images/icons/google.svg'
+import linkedinIcon from '../../images/icons/linkedin.svg'
 
 const Footer = (props) => {
   return (
