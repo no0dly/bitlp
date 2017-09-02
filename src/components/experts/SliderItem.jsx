@@ -31,7 +31,7 @@ const SliderItem = (props) => {
 const Wrap = styled.div`
   padding: 32px 40px;
   background: #FFFFFF;
-  box-shadow: 0px 0px 36px rgba(177, 177, 177, 0.337438);
+  box-shadow: 0px 0px 6px rgba(177, 177, 177, 0.337438);
   border-radius: 6px;
   margin: 0 30px;
   min-height: 280px;

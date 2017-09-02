@@ -9,8 +9,6 @@ import moneyIcon from '../../images/money.svg'
 import clockIcon from '../../images/clock.svg'
 import mask from '../../images/maskDiscover.png'
 
-
-
 const Discover = (props) => {
   return (
     <Wrap>

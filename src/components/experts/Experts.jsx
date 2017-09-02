@@ -50,6 +50,7 @@ const Experts = (props) => {
 }
 
 const Wrap = styled.div`
+  padding-top: 50px;
   text-align: center;
   margin-bottom: 25px;
 `
