@@ -37,10 +37,16 @@ const TitleText = styled.div`
   color: #fff;
   font-size: 2.375rem;
   font-family: Roboto;
+  @media (max-width: 500px) {
+    font-size: 1.875rem;
+  }
 `
 
 const SubTitle = styled.div`
   margin-bottom: 40px;
+  @media (max-width: 500px) {
+    margin-bottom: 20px;
+  }
 `
 
 const SubTitleText = styled.div`
@@ -48,10 +54,17 @@ const SubTitleText = styled.div`
   font-size: 1.375rem;
   font-family: Roboto;
   font-weight: 300;
+  line-height: 1.5rem;
+  @media (max-width: 500px) {
+    font-size: 1.125rem;
+  }
 `
 
 const LinkWrap = styled.div`
   margin-bottom: 30px;
+  @media (max-width: 500px) {
+    margin-bottom: 20px;
+  }
 `
 
 const Link = styled.a`
@@ -68,6 +81,15 @@ const Link = styled.a`
   &:hover {
     color: #00B5FF;
     background: #fff;
+  }
+  @media (max-width: 700px) {
+    font-size: 1rem;
+    padding: 24px 120px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+    padding: 24px 60px;
   }
 `
 

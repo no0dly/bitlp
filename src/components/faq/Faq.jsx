@@ -90,7 +90,7 @@ const TitleText = styled.h3`
   font-size: 2.375rem;
   color: #263445;
   @media (max-width: 500px) {
-    font-size: 2rem;
+    font-size: 1.875rem;
   }
 `
 
@@ -152,6 +152,7 @@ const ContentDescriptionText = styled.div`
   }
   @media (max-width: 500px) {
     font-size: 0.875rem;
+    word-break: break-word;
   }
 `
 

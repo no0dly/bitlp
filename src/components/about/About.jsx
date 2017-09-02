@@ -83,12 +83,12 @@ const TitleText = styled.h3`
   color: #263445;
   letter-spacing: 0.013px;
   @media (max-width: 500px) {
-    font-size: 2rem;
+    font-size: 1.875rem;
   }
 `
 
 const Desrc = styled.div`
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 `
 
 const DesrcText = styled.p`

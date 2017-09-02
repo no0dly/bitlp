@@ -121,6 +121,9 @@ const Wrap = styled.div`
   margin: 0 auto;
   justify-content: center;
   padding: 82px 20px 20px;
+  @media (max-width: 500px) {
+    padding-top: 40px;
+  }
 `
 
 const Column = styled.div`
@@ -129,10 +132,30 @@ const Column = styled.div`
   &:first-child {
     width: 35%;
   }
+  &:last-child {
+    padding-right: 0px;
+  }
+  @media (max-width: 768px) {
+    &:last-child {
+      width: 50px;
+    }
+  }
+  @media (max-width: 600px) {
+    width: 33.3%;
+    &:first-child {
+      display: none;
+    }
+  }
+  @media (max-width: 500px) {
+    font-size: 0.750rem;
+  }
 `
 
 const Title = styled.div`
   margin-bottom: 45px;
+  @media (max-width: 500px) {
+    margin-bottom: 25px;
+  }
 `
 
 const TitleText = styled.h3`
@@ -140,13 +163,20 @@ const TitleText = styled.h3`
   font-family: Roboto;
   font-size: 0.875rem;
   text-transform: uppercase;
+  @media (max-width: 500px) {
+    font-size: 0.750rem;
+  }
 `
 
 const Text = styled.div`
   max-width: 264px;
   color: #8392A7;
   font-family: Roboto;
-  line-height: 33px;
+  line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
 `
 
 const List = styled.ul`
@@ -164,6 +194,10 @@ const Link = styled.a`
   &:hover {
     color: #2B2E35;
   }
+  @media (max-width: 500px) {
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+  }
 `
 
 const ShareList = styled.ul`
@@ -173,6 +207,13 @@ const ShareList = styled.ul`
 
 const ShareItem = styled.li`
   width: 25%;
+  @media (max-width: 1000px) {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const ShareLink = styled.a`
@@ -203,6 +244,10 @@ const ShareLink = styled.a`
 
   &:hover {
     opacity: 0.7;
+  }
+  @media (max-width: 500px) {
+    width: 38px;
+    height: 38px;
   }
 `
 

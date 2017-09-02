@@ -112,7 +112,7 @@ const TitleText = styled.h3`
   font-size: 2.375rem;
   color: #263445;
   @media (max-width: 500px) {
-    font-size: 2rem;
+    font-size: 1.875rem;
   }
 `
 
@@ -121,6 +121,9 @@ const SubTitle = styled.div`
   margin-bottom: 80px;
   position: relative;
   z-index: 2;
+  @media (max-width: 500px) {
+    font-size: 40rem;
+  }
 `
 
 const SubTitleText = styled.h4`
@@ -152,7 +155,7 @@ const ContentItem = styled.li`
 
   @media (max-width: 900px) {
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     &:nth-child(even) {
       padding-top: 120px;
     }
@@ -220,6 +223,7 @@ const ContentImage = styled.div`
   @media (max-width: 500px) {
     width: 120px;
     height: 120px;
+    margin-bottom: 25px;
   }
 `
 
@@ -255,6 +259,7 @@ const ContentDescriptionTitle = styled.div`
   margin-bottom: 30px;
   @media (max-width: 500px) {
     font-size: 1.125rem;
+    margin-bottom: 15px;
   }
 
 `

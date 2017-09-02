@@ -144,7 +144,7 @@ const TitleText = styled.h3`
   color: #fff;
   margin-bottom: 15px;
   @media (max-width: 500px) {
-    font-size: 2rem;
+    font-size: 1.875rem;
   }
 `
 
@@ -277,7 +277,7 @@ const Link = styled.a`
 
   @media (max-width: 500px) {
     font-size: 1rem;
-    padding: 24px 100px;
+    padding: 24px 60px;
   }
 `
 
