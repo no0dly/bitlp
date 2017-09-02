@@ -7,6 +7,9 @@ import spareIcon from '../../images/spare.svg'
 import dollarIcon from '../../images/dollar.svg'
 import moneyIcon from '../../images/money.svg'
 import clockIcon from '../../images/clock.svg'
+import mask from '../../images/maskDiscover.png'
+
+
 
 const Discover = (props) => {
   return (
@@ -114,6 +117,19 @@ const Wrap = styled.div`
   padding: 190px 30px 78px;
   position: relative;
   background: #32315E;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(${mask});
+    background-repeat: no-repeat;
+    background-position: top right;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 `
 
 const Title = styled.div`

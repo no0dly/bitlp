@@ -168,6 +168,7 @@ const Link = styled.a`
 
 const ShareList = styled.ul`
   display: flex;
+  flex-wrap: wrap;
 `
 
 const ShareItem = styled.li`

@@ -108,9 +108,6 @@ const ContentTitleText = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.375rem;
   color: #263445;
-  a {
-    color: #14A4FF;
-  }
 `
 
 const ContentDescription = styled.div`
@@ -123,6 +120,9 @@ const ContentDescriptionText = styled.div`
   color: #8392A7;
   font-weight: 300;
   line-height: 2rem;
+  a {
+    color: #14A4FF;
+  }
 `
 
 export default Faq
