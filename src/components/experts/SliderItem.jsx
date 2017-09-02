@@ -102,6 +102,7 @@ const DescrText = styled.p`
   font-family: 'Roboto', sans-serif;
   color: #263445;
   font-size: 1.25rem;
+  font-weight: 300;
   @media (max-width: 500px) {
     text-align: 1rem;
   }
