@@ -119,7 +119,7 @@ const Wrap = styled.div`
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 10%;
     background-image: url(${mask});
     background-repeat: no-repeat;
     background-position: top right;
@@ -265,7 +265,8 @@ const Link = styled.a`
   border-radius: 7px;
   transition: 0.3s;
   font-size: 1.5rem;
-  font-family: Roboto;
+  font-family: 'Roboto';
+  cursor: pointer;
   &:hover {
     color: #00B5FF;
     background: #fff;
