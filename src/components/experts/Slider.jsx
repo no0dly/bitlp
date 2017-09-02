@@ -15,7 +15,21 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   centerMode: true,
-  dotsClass: 'customDots'
+  dotsClass: 'customDots',
+  responsive: [
+    {
+      breakpoint: 960,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 820,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
 }
 
 class Slider extends React.Component {
@@ -46,6 +60,9 @@ const Wrap = styled.div`
     padding-top: 20px!important;
     padding-bottom: 20px!important;
     margin-bottom: 80px;
+    @media (max-width: 500px) {
+      margin-bottom: 20px;
+    }
   }
   .customDots {
     li {

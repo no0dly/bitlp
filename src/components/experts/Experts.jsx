@@ -64,6 +64,9 @@ const TitleText = styled.h3`
   font-family: 'Roboto', sans-serif;
   font-size: 2.375rem;
   color: #263445;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `
 
 const SliderWrap = styled.div`

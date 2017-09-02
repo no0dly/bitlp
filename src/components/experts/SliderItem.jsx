@@ -35,12 +35,21 @@ const Wrap = styled.div`
   border-radius: 6px;
   margin: 0 30px;
   min-height: 280px;
+  @media (max-width: 500px) {
+    margin: 0 10px;
+  }
 `
 
 const Header = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+  @media (max-width: 500px) {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `
 
 const Ava = styled.div`
@@ -54,6 +63,9 @@ const Ava = styled.div`
 
 const About = styled.div`
   text-align: left;
+  @media (max-width: 500px) {
+    text-align: center;
+  }
 `
 
 const Name = styled.div`
@@ -64,7 +76,9 @@ const NameText = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.125rem;
   color: #263445;
-
+  @media (max-width: 500px) {
+    text-align: 0.875rem;
+  }
 `
 
 const Position = styled.div`
@@ -79,12 +93,18 @@ const PositionText = styled.div`
 
 const Descr = styled.div`
   text-align: left;
+  @media (max-width: 500px) {
+    text-align: center;
+  }
 `
 
 const DescrText = styled.p`
   font-family: 'Roboto', sans-serif;
   color: #263445;
   font-size: 1.25rem;
+  @media (max-width: 500px) {
+    text-align: 1rem;
+  }
 `
 
 export default SliderItem

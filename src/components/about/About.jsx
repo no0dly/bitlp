@@ -41,6 +41,9 @@ const Wrap = styled.div`
   display: flex;
   max-width: 1140px;
   margin: 0 auto;
+  @media (max-width: 800px) {
+    padding: 50px 30px 100px;
+  }
   @media (max-width: 500px) {
     padding: 20px 30px 60px;
   }
