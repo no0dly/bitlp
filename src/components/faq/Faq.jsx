@@ -70,6 +70,9 @@ const Wrap = styled.div`
     left: 0;
     right: 0;
   }
+  @media (max-width: 900px) {
+    padding-top: 70px;
+  }
 `
 
 const Title = styled.div`
@@ -77,12 +80,18 @@ const Title = styled.div`
   margin-bottom: 55px;
   position: relative;
   z-index: 2;
+  @media (max-width: 900px) {
+    margin-bottom: 40px;
+  }
 `
 
 const TitleText = styled.h3`
   font-family: 'Roboto', sans-serif;
   font-size: 2.375rem;
   color: #263445;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `
 
 const Content = styled.div`
@@ -94,24 +103,42 @@ const Content = styled.div`
   position: relative;
   z-index: 2;
   background: #fff;
+  @media (max-width: 900px) {
+    padding: 30px 40px 30px 44px;
+  }
 `
 
 const ContentItem = styled.div`
   margin-bottom: 55px;
+  @media (max-width: 900px) {
+    margin-bottom: 35px;
+  }
 `
 
 const ContentTitle = styled.div`
   margin-bottom: 40px;
+  @media (max-width: 900px) {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 500px) {
+    margin-bottom: 10px;
+  }
 `
 
 const ContentTitleText = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.375rem;
   color: #263445;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 
 const ContentDescription = styled.div`
   margin-bottom: 20px;
+  @media (max-width: 900px) {
+    margin-bottom: 10px;
+  }
 `
 
 const ContentDescriptionText = styled.div`
@@ -122,6 +149,9 @@ const ContentDescriptionText = styled.div`
   line-height: 2rem;
   a {
     color: #14A4FF;
+  }
+  @media (max-width: 500px) {
+    font-size: 0.875rem;
   }
 `
 
