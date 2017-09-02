@@ -102,6 +102,17 @@ const ListItem = styled.li`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    @media (max-width: 900px) {
+      justify-content: baseline;
+    }
+  }
+  @media (max-width: 900px) {
+    width: 50%;
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+    text-align: center;
   }
 `
 
@@ -114,11 +125,19 @@ const PageTitleText = styled.h3`
   font-size: 2.375rem;
   letter-spacing: 0.013px;
   color: #FC7455;
+  @media (max-width: 500px) {
+    font-size: 1.875rem;
+  }
 `
 
 const Title = styled.div`
   display: flex;
   margin-bottom: 50px;
+  @media (max-width: 650px) {
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 `
 const TitleIcon = styled.div`
   width: 28px;
@@ -141,10 +160,16 @@ const TitleText = styled.p`
   font-size: 1.375rem;
   color: #FC7455;
   padding-top: 4px;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 
 const Descr = styled.div`
   margin-bottom: 70px;
+  @media (max-width: 650px) {
+    margin-bottom: 30px;
+  }
 `
 
 const DescrText = styled.p`
@@ -153,6 +178,9 @@ const DescrText = styled.p`
   color: #8392A7;
   font-weight: 300;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 0.875rem;
+  }
 `
 
 export default Why
