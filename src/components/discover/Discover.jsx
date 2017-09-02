@@ -165,6 +165,7 @@ const ContentItem = styled.li`
   @media (max-width: 900px) {
     width: 50%;
     margin-bottom: 30px;
+    padding: 0 30px;
   }
 
   @media (max-width: 650px) {

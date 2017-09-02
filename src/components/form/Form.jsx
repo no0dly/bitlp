@@ -28,7 +28,9 @@ const Form = (props) => {
             </CheckBox>
           </div>
         </Container>
-        <Submit type="submit" value="Get Started" />
+        <Submit type="submit">
+          Get Started
+        </Submit>
       </FormWrap>
     </Wrap>
   )
@@ -142,7 +144,7 @@ const CheckBoxText = styled.div`
   }
 `
 
-const Submit = styled.input`
+const Submit = styled.button`
   background: #00B5FF;
   width: 100%;
   border: 1px solid #00B5FF;
