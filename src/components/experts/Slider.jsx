@@ -11,6 +11,7 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
+  arrows: false,
   slidesToShow: 3,
   slidesToScroll: 1,
   centerMode: true,
