@@ -41,6 +41,9 @@ const Wrap = styled.div`
   display: flex;
   max-width: 1140px;
   margin: 0 auto;
+  @media (max-width: 500px) {
+    padding: 20px 30px 60px;
+  }
 `
 
 const Image = styled.div`
@@ -54,11 +57,17 @@ const Image = styled.div`
     height: 100%;
     background: url(${aboutMask}) no-repeat top right;
   }
+  @media (max-width: 800px) {
+    display: none;
+  }
 `
 
 const Content = styled.div`
   padding-top: 50px;
   width: 50%;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `
 
 const Title = styled.div`
@@ -70,6 +79,9 @@ const TitleText = styled.h3`
   font-size: 2.375rem;
   color: #263445;
   letter-spacing: 0.013px;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `
 
 const Desrc = styled.div`
@@ -82,6 +94,9 @@ const DesrcText = styled.p`
   color: #8392A7;
   line-height: 2rem;
   font-weight: 300;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 
 const SubTitle = styled.div`
@@ -92,6 +107,9 @@ const SubTitleText = styled.h4`
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   color: #263445;
+  @media (max-width: 500px) {
+    font-size: 1.125rem;
+  }
 
 `
 
@@ -121,6 +139,12 @@ const LernMoreInput = styled.input`
   &:-moz-placeholder {
     color: #9CA4AA;
   }
+
+  @media (max-width: 500px) {
+    font-size: 0.75rem;
+    padding: 0 10px;
+    width: calc(100% - 100px);
+  }
 `
 
 const LernMoreButton = styled.button`
@@ -138,6 +162,10 @@ const LernMoreButton = styled.button`
   &:hover {
     background: #FFFFFF;
     color: #62D2FF;
+  }
+  @media (max-width: 500px) {
+    font-size: 0.75rem;
+    width: 100px;
   }
 `
 
