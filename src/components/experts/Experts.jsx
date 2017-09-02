@@ -58,6 +58,7 @@ const Wrap = styled.div`
 const Title = styled.div`
   text-align: center;
   margin-bottom: 100px;
+  padding: 0 30px;
   @media (max-width: 500px) {
     margin-bottom: 30px;
   }
