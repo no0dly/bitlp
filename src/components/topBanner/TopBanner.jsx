@@ -54,7 +54,6 @@ const Wrap = styled.div`
   height: 874px;
   padding: 0 150px 0;
   display: flex;
-  flex-wrap: wrap;
   background-image: url(${topBannerBg});
   background-repeat: no-repeat;
   background-position: top left;
