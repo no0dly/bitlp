@@ -54,7 +54,7 @@ const Faq = (props) => {
 }
 
 const Wrap = styled.div`
-  padding: 230px 30px;
+  padding: 230px 30px 50px;
   position: relative;
   &:after {
     content: '';

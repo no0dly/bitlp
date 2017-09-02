@@ -172,7 +172,7 @@ const ShareList = styled.ul`
 `
 
 const ShareItem = styled.li`
-  margin-right: 15px;
+  width: 25%;
 `
 
 const ShareLink = styled.a`

@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import signup from '../../images/signup.svg'
+import verify from '../../images/verify.svg'
+import fund from '../../images/fund.svg'
+import trading from '../../images/trading.svg'
+
 const How = (props) => {
   return (
     <Wrap>
@@ -17,54 +22,66 @@ const How = (props) => {
       <Content>
         <ContentList>
           <ContentItem>
-            <ContentImage>
-              <Icon className="shield" />
+            <ContentImage className="signup">
+              <span />
+              <Counter>
+                1.
+              </Counter>
             </ContentImage>
             <ContentDescription>
               <ContentDescriptionTitle>
-                Security
+                Sign Up
               </ContentDescriptionTitle>
               <ContentDescriptionText>
-                Trade Bitcoin and more on the most secure coin management system.
+                All we need is your email address and some very basic information to start your profile setup
               </ContentDescriptionText>
             </ContentDescription>
           </ContentItem>
           <ContentItem>
-            <ContentImage>
-              <Icon className="diagram" />
+            <ContentImage className="verify">
+              <span />
+              <Counter>
+                2.
+              </Counter>
             </ContentImage>
             <ContentDescription>
               <ContentDescriptionTitle>
-                Lowest Fees
+                Verify
               </ContentDescriptionTitle>
               <ContentDescriptionText>
-                We have lower trading and transactional fees than any platform. Trading commissions range from 0.1% to 0.4%.
+                Your security is important to us. To verify your account, we'll need a few documents that help us get to know you better.
               </ContentDescriptionText>
             </ContentDescription>
           </ContentItem>
           <ContentItem>
-            <ContentImage>
-              <Icon className="spare" />
+            <ContentImage className="fund" >
+              <span />
+              <Counter>
+                3.
+              </Counter>
             </ContentImage>
             <ContentDescription>
               <ContentDescriptionTitle>
-                A+ Support
+                Fund
               </ContentDescriptionTitle>
               <ContentDescriptionText>
-                Our customer service puts you first. We’re here to help every step of the way.
+                Adding money to your account is simple. You can choose from multiple options when transferring funds to your account.
               </ContentDescriptionText>
             </ContentDescription>
           </ContentItem>
           <ContentItem>
-            <ContentImage>
-              <Icon className="dollar" />
+            <ContentImage className="trading">
+              <span />
+              <Counter>
+                4.
+              </Counter>
             </ContentImage>
             <ContentDescription>
-              <ContentDescriptionTitle className="long">
-                Multiple Currencies
+              <ContentDescriptionTitle>
+                Start trading
               </ContentDescriptionTitle>
               <ContentDescriptionText>
-                Trade the world’s most popular cryptocurrencies like Bitcoin, Ethereum, and precious metals like gold and silver.
+                You're ready to start trading on Canada's leading digital currency exchange. We are here to walk you through your first trade and get you started.
               </ContentDescriptionText>
             </ContentDescription>
           </ContentItem>
@@ -82,7 +99,7 @@ const Wrap = styled.div`
 
 const Title = styled.div`
   text-align: center;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
   position: relative;
   z-index: 2;
 `
@@ -95,15 +112,15 @@ const TitleText = styled.h3`
 
 const SubTitle = styled.div`
   text-align: center;
-  margin-bottom: 55px;
+  margin-bottom: 80px;
   position: relative;
   z-index: 2;
 `
 
 const SubTitleText = styled.h4`
   font-family: 'Roboto', sans-serif;
-  font-size: 2.375rem;
-  color: #263445;
+  font-size: 1.25rem;
+  color: #8392A7;
 `
 
 const Content = styled.div`
@@ -120,22 +137,79 @@ const ContentList = styled.ul`
 const ContentItem = styled.li`
   width: 25%;
   text-align: center;
-  padding: 0 55px;
+  padding: 0 10px;
   margin-bottom: 80px;
+  &:nth-child(even) {
+    padding-top: 220px;
+  }
 `
 
 const ContentImage = styled.div`
   width: 150px;
   height: 150px;
   margin: 0 auto;
+  position: relative;
   background: #FFFFFF;
   box-shadow: 6px 10px 20px rgba(189, 190, 205, 0.249406);
   border-radius: 50%;
   margin-bottom: 40px;
+  span {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  &.signup {
+    background: rgba(99, 212, 250, 0.15);
+    span {
+      background: url(${signup}) no-repeat center;
+    }
+    div {
+      color: #63D4FA;
+    }
+  }
+  &.verify {
+    background: rgba(246, 191, 78, 0.15);
+    span {
+      background: url(${verify}) no-repeat center;
+    }
+    div {
+      color: #F6BF4E;
+    }
+  }
+  &.fund {
+    background: rgba(52, 208, 140, 0.15);
+    span {
+      background: url(${fund}) no-repeat center;
+    }
+    div {
+      color: #34D08C;
+    }
+  }
+  &.trading {
+    background: rgba(117, 146, 251, 0.15);
+    span {
+      background: url(${trading}) no-repeat center;
+    }
+    div {
+      color: #7592FB;
+    }
+  }
 `
-const Icon = styled.div`
 
-
+const Counter = styled.div`
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 6px 10px 20px rgba(157, 159, 170, 0.249406);
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.0625rem;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const ContentDescription = styled.div`
@@ -145,16 +219,14 @@ const ContentDescription = styled.div`
 const ContentDescriptionTitle = styled.div`
   font-family: 'Roboto', sans-serif;
   font-size: 1.375rem;
-  color: #8392A7;
-  margin-bottom: 20px;
-  &.long {
-    margin-bottom: 5px;
-  }
+  color: #263445;
+  margin-bottom: 30px;
+
 `
 
 const ContentDescriptionText = styled.div`
   font-family: 'Roboto', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   color: #8392A7;
   line-height: 2rem;
 `
