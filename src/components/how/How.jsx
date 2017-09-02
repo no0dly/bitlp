@@ -95,6 +95,9 @@ const Wrap = styled.div`
   max-width: 1162px;
   margin: 0 auto;
   padding: 82px 20px 20px;
+  @media (max-width: 900px) {
+    padding-top: 40px;
+  }
 `
 
 const Title = styled.div`
@@ -108,6 +111,9 @@ const TitleText = styled.h3`
   font-family: 'Roboto', sans-serif;
   font-size: 2.375rem;
   color: #263445;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `
 
 const SubTitle = styled.div`
@@ -121,12 +127,13 @@ const SubTitleText = styled.h4`
   font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   color: #8392A7;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 
 const Content = styled.div`
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.375rem;
-  color: #fff;
+
 `
 
 const ContentList = styled.ul`
@@ -141,6 +148,22 @@ const ContentItem = styled.li`
   margin-bottom: 80px;
   &:nth-child(even) {
     padding-top: 220px;
+  }
+
+  @media (max-width: 900px) {
+    width: 50%;
+    margin-bottom: 30px;
+    &:nth-child(even) {
+      padding-top: 120px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+    text-align: center;
+    &:nth-child(even) {
+      padding-top: 0;
+    }
   }
 `
 
@@ -194,6 +217,10 @@ const ContentImage = styled.div`
       color: #7592FB;
     }
   }
+  @media (max-width: 500px) {
+    width: 120px;
+    height: 120px;
+  }
 `
 
 const Counter = styled.div`
@@ -210,6 +237,11 @@ const Counter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 500px) {
+    width: 25px;
+    height: 25px;
+    font-size: 0.75rem;
+  }
 `
 
 const ContentDescription = styled.div`
@@ -221,6 +253,9 @@ const ContentDescriptionTitle = styled.div`
   font-size: 1.375rem;
   color: #263445;
   margin-bottom: 30px;
+  @media (max-width: 500px) {
+    font-size: 1.125rem;
+  }
 
 `
 
@@ -229,6 +264,9 @@ const ContentDescriptionText = styled.div`
   font-size: 1.0625rem;
   color: #8392A7;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 0,875rem;
+  }
 `
 
 export default How
