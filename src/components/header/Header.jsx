@@ -19,6 +19,7 @@ const Header = (props) => {
 const Wrap = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 30px 46px;
 `
 
@@ -26,6 +27,11 @@ const LogoWrap = styled.a`
   width: 188px;
   height: 30px;
   display: block;
+  transition: 0.3s;
+  @media (max-width: 500px) {
+    width: 120px;
+    height: auto;
+  }
   img {
     width: 100%;
     height: auto;

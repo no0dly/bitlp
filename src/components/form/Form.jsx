@@ -35,11 +35,12 @@ const Form = (props) => {
 }
 
 const Wrap = styled.div`
-
+  width: 100%;
 `
 
 const FormWrap = styled.div`
   max-width: 460px;
+  width: 100%;
   background: #fff;
   border-radius: 8px;
   padding-top: 55px;

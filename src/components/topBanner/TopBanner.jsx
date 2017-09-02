@@ -68,7 +68,7 @@ const Content = styled.div`
   height: 100%;
   justify-content: center;
   padding-right: 30px;
-
+  margin-right: 100px;
 `
 const Title = styled.div`
   max-width: 401px;
