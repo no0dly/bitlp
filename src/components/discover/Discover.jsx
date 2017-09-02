@@ -143,12 +143,13 @@ const TitleText = styled.h3`
   font-size: 2.375rem;
   color: #fff;
   margin-bottom: 15px;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `
 
 const Content = styled.div`
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.375rem;
-  color: #fff;
+
 `
 
 const ContentList = styled.ul`
@@ -161,6 +162,15 @@ const ContentItem = styled.li`
   text-align: center;
   padding: 0 55px;
   margin-bottom: 80px;
+  @media (max-width: 900px) {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 650px) {
+    width: 100%;
+    text-align: center;
+  }
 `
 
 const ContentImage = styled.div`
@@ -171,6 +181,11 @@ const ContentImage = styled.div`
   box-shadow: 6px 10px 20px rgba(189, 190, 205, 0.249406);
   border-radius: 50%;
   margin-bottom: 40px;
+
+  @media (max-width: 500px) {
+    width: 90px;
+    height: 90px;
+  }
 `
 const Icon = styled.div`
   width: 100%;
@@ -202,6 +217,9 @@ const Icon = styled.div`
 const ContentDescription = styled.div`
   max-width: 315px;
   margin: 0 auto 105px;
+  @media (max-width: 900px) {
+    margin-bottom: 60px;
+  }
 `
 
 const ContentDescriptionTitle = styled.div`
@@ -212,6 +230,13 @@ const ContentDescriptionTitle = styled.div`
   &.long {
     margin-bottom: 5px;
   }
+
+  @media (max-width: 500px) {
+    font-size: 1.125rem;
+    &.long {
+      margin-bottom: 20px;
+    }
+  }
 `
 
 const ContentDescriptionText = styled.div`
@@ -219,6 +244,9 @@ const ContentDescriptionText = styled.div`
   font-size: 1.125rem;
   color: #8392A7;
   line-height: 2rem;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
 
 const LinkWrap = styled.div`
@@ -240,6 +268,16 @@ const Link = styled.a`
   &:hover {
     color: #00B5FF;
     background: #fff;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 1rem;
+    padding: 24px 120px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+    padding: 24px 100px;
   }
 `
 
