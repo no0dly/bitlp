@@ -8,36 +8,43 @@ import lockIcon from '../../images/icons/lock.svg'
 const Form = (props) => {
   return (
     <Wrap>
-      <FormWrap>
-        <Container>
-          <Title>
-            <TitleText>
-              Start Investing in Bitcoin
-            </TitleText>
-          </Title>
-          <div>
-            <Input className="person" type="text" name="username" placeholder="Select a Username" />
-            <Input className="envelope" type="email" name="email" placeholder="Enter your email address" />
-            <Input className="lock" type="password" name="password" placeholder="Password" />
-            <Input className="lock" type="password" name="confpassword" placeholder="Confirm Password" />
-            <CheckBox>
-              <CheckBoxInput type="checkbox" name="agree" />
-              <CheckBoxText>
-                I have read and accepted the terms and conditions of use
-              </CheckBoxText>
-            </CheckBox>
-          </div>
-        </Container>
-        <Submit type="submit">
-          Get Started
-        </Submit>
-      </FormWrap>
+      <Pusher>
+        <FormWrap>
+          <Container>
+            <Title>
+              <TitleText>
+                Start Investing in Bitcoin
+              </TitleText>
+            </Title>
+            <div>
+              <Input className="person" type="text" name="username" placeholder="Select a Username" />
+              <Input className="envelope" type="email" name="email" placeholder="Enter your email address" />
+              <Input className="lock" type="password" name="password" placeholder="Password" />
+              <Input className="lock" type="password" name="confpassword" placeholder="Confirm Password" />
+              <CheckBox>
+                <CheckBoxInput type="checkbox" name="agree" />
+                <CheckBoxText>
+                  I have read and accepted the terms and conditions of use
+                </CheckBoxText>
+              </CheckBox>
+            </div>
+          </Container>
+          <Submit type="submit">
+            Get Started
+          </Submit>
+        </FormWrap>
+      </Pusher>
     </Wrap>
   )
 }
 
 const Wrap = styled.div`
   width: 100%;
+`
+
+const Pusher = styled.div`
+  display: flex;
+  justify-content: flex-end;
 `
 
 const FormWrap = styled.div`
